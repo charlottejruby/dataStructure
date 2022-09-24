@@ -60,4 +60,3 @@ int main(){
     printf("주소: %s\n", oe.address);
     return 0;
 }
-
