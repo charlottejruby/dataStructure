@@ -21,7 +21,7 @@ int is_empty(QueueType * q){
     return ((q->front)==(q->rear));
 }
 int is_full(QueueType *q){
-    return((q->rear+1)%0````MAX_QUEUE_SIZE==q->front);
+    return((q->rear+1)%MAX_QUEUE_SIZE==q->front);
 }
 void enqueue(QueueType *q, element item){
     if(is_full(q)){
